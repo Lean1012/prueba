@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+h2{
+    font-size: 26px;
+    color: #003041;
+    
+}
+}
+
+p{
+    font-size: 20px;
+}
+}
+
+footer {
+  margin-top: auto;
+}
+
+nav img {
+  width: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+nav #logoIIEsolo {
+  width: 60px;
+}
+
+footer {
+  margin-top: 10%;
+}
+footer img {
+  display: block;
+  margin: auto;
+
+  width: 500px;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
